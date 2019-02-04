@@ -18,5 +18,8 @@
     "eslint-plugin-mocha": "5.x",
     "eslint-plugin-prettier": "2.x",
     "eslint-plugin-react": "7.x"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
