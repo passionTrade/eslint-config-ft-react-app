@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-ft-react-app",
+  "name": "@fashiontrade/eslint-config-ft-react-app",
   "version": "0.1.0",
   "description": "ESLint configuration used by fashionTrade react apps",
   "repository": "https://github.com/FashionTrade/eslint-config-ft-react-app",

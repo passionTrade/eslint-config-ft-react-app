@@ -15,7 +15,7 @@ If you want to use this ESLint configuration in a project not built with Create 
 First, install this package, ESLint and the necessary plugins.
 
 ```sh
-yarn add --dev eslint-config-ft-react-app babel-eslint@9.x eslint@5.x eslint-plugin-flowtype@2.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-config-airbnb@17.0.0 eslint-config-prettier@3.0.1 eslint-plugin-jest@21.x eslint-plugin-mocha@5.x eslint-plugin-prettier@2.x
+yarn add --dev @fashiontrade/eslint-config-ft-react-app babel-eslint@9.x eslint@5.x eslint-plugin-flowtype@2.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-config-airbnb@17.0.0 eslint-config-prettier@3.0.1 eslint-plugin-jest@21.x eslint-plugin-mocha@5.x eslint-plugin-prettier@2.x
 ```
 
 Then create a file named `.eslintrc.js` with following contents in the root folder of your project:
