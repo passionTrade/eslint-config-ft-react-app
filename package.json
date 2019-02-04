@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-ft-react-app",
+  "version": "0.1.0",
+  "description": "ESLint configuration used by fashionTrade react apps",
+  "repository": "https://github.com/FashionTrade/eslint-config-ft-react-app",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "9.x",
+    "eslint": "5.x",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jest": "21.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-mocha": "5.x",
+    "eslint-plugin-prettier": "2.x",
+    "eslint-plugin-react": "7.x"
+  }
+}
