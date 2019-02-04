@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   extends: ['airbnb', 'prettier'],
   parser: 'babel-eslint',
@@ -120,14 +118,6 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-    },
-  },
-
-  settings: {
-    'import/resolver': {
-      node: {
-        paths: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'src/components')],
-      },
     },
   },
 };
