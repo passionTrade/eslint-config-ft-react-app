@@ -22,7 +22,7 @@ Then create a file named `.eslintrc.js` with following contents in the root fold
 
 ```
 module.export = {
-  extends: 'ft-react-app',
+  extends: '@fashiontrade/eslint-config-ft-react-app',
 }
 ```
 
