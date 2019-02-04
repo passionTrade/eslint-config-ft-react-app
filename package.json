@@ -1,6 +1,6 @@
 {
   "name": "@fashiontrade/eslint-config-ft-react-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ESLint configuration used by fashionTrade react apps",
   "repository": "https://github.com/FashionTrade/eslint-config-ft-react-app",
   "license": "MIT",
