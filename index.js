@@ -18,9 +18,15 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'mocha/no-exclusive-tests': 'error',
 
-    // Disable this check because of test code in the src folder
-    // https://github.com/eslint/eslint/pull/7073
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        'packageDir': [
+          './',
+          './node_modules/@fashiontrade/ft-react-scripts/'
+        ]
+      }
+    ],
     'template-tag-spacing': ['off', 'always'],
     camelcase: [0, { ignoreDestructuring: true }],
     'padded-blocks': 0,
