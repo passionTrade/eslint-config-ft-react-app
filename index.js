@@ -18,15 +18,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'mocha/no-exclusive-tests': 'error',
 
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        'packageDir': [
-          './',
-          './node_modules/@fashiontrade/ft-react-scripts/'
-        ]
-      }
-    ],
+    'import/no-extraneous-dependencies': 0,
     'template-tag-spacing': ['off', 'always'],
     camelcase: [0, { ignoreDestructuring: true }],
     'padded-blocks': 0,
