@@ -8,15 +8,16 @@
     "index.js"
   ],
   "peerDependencies": {
-    "babel-eslint": "9.x",
-    "eslint": "5.x",
-    "eslint-config-airbnb": "17.0.0",
-    "eslint-config-prettier": "3.0.1",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jest": "21.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-mocha": "5.x",
-    "eslint-plugin-prettier": "2.x",
-    "eslint-plugin-react": "7.x"
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^3.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jest": "^21.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-prettier": "^2.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "prettier": "^1.0.0"
   }
 }
