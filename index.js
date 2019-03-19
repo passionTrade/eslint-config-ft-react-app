@@ -79,6 +79,14 @@ module.exports = {
     'jsx-a11y/mouse-events-have-key-events': 0,
   },
 
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+      },
+    },
+  },
+
   env: {
     browser: true,
     mocha: true,
