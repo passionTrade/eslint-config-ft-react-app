@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Added
+- src folder is now used to resolve absolute imports.
+
 ## [0.4.0] - 2019-02-20
 
 ### Added
