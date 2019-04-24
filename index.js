@@ -77,6 +77,8 @@ module.exports = {
     'react/jsx-max-props-per-line': 0,
     'react/no-danger': 0,
     'jsx-a11y/mouse-events-have-key-events': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
 
   settings: {
@@ -117,7 +119,7 @@ module.exports = {
     byTestId: true,
   },
 
-  plugins: ['jest', 'react', 'mocha', 'prettier'],
+  plugins: ['jest', 'react', 'mocha', 'prettier', 'react-hooks'],
 
   parserOptions: {
     ecmaVersion: 6,

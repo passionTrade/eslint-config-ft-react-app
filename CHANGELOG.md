@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## [0.5.0] - 2019-04-24
+
+### Added
+- Lint hooks using eslint-plugin-react-hooks
+
 ## [0.5.0] - 2019-02-20
 
 ### Added
