@@ -97,7 +97,6 @@ module.exports = {
   globals: {
     Intercom: true,
     PRODUCTION: true,
-    fashionTradeSettings: true,
     dataLayer: true,
     Cypress: true,
     cy: true,
